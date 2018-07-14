@@ -24,6 +24,11 @@ $(call inherit-product, device/oneplus/oneplus3/device.mk)
 $(call inherit-product, vendor/cardinal//common.mk)
 
 PRODUCT_NAME := cardinal_oneplus3
+
+# Vendor security patch level
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.lineage.build.vendor_security_patch=2018-06-01
+
 PRODUCT_DEVICE := oneplus3
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus

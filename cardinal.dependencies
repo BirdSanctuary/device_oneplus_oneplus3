@@ -10,7 +10,7 @@
     "remote_name": "github"
   },
   {
-    "repository": "proprietary_vendor_oneplus",
+    "repository": "vendor_oneplus",
     "target_path": "vendor/oneplus"
   }
 ]

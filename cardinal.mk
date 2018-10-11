@@ -27,7 +27,7 @@ PRODUCT_NAME := cardinal_oneplus3
 
 # Vendor security patch level
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.lineage.build.vendor_security_patch=2018-07-01
+    ro.lineage.build.vendor_security_patch=2018-09-01
 
 PRODUCT_DEVICE := oneplus3
 PRODUCT_MANUFACTURER := OnePlus
